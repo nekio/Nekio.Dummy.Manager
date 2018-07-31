@@ -1,0 +1,1 @@
+# Nekio.Dummy.Manager
