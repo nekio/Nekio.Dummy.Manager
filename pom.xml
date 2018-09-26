@@ -15,6 +15,13 @@
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
     
+    <repositories>
+        <repository>
+            <id>JBoss repository</id>
+            <url>https://repository.jboss.org/nexus/content/groups/public-jboss/</url>
+        </repository>
+    </repositories>
+    
     <dependencies>
         <dependency>
             <groupId>Nekio.Library</groupId>
@@ -39,6 +46,17 @@
             <artifactId>Nekio.Library.Framework</artifactId>
             <version>1.0</version>
             <scope>compile</scope>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.jboss.resteasy</groupId>
+            <artifactId>resteasy-jaxrs</artifactId>
+            <version>3.6.1.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jboss.resteasy</groupId>
+            <artifactId>resteasy-jaxb-provider</artifactId>
+            <version>3.6.1.Final</version>
         </dependency>
     </dependencies>
     
